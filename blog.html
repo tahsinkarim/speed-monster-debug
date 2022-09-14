@@ -49,6 +49,37 @@
         developers to declare variables in the block scope.
       </p>
     </section>
-    <section class="box-container blog"></section>
+    <section class="box-container blog">
+      <h3 class="question green">How does JavaScript event loop work ?</h3>
+      <p class="answer">
+        An event loop is something that pulls stuff out of the queue and places
+        it onto the function execution stack whenever the function stack becomes
+        empty. The event loop is the secret by which JavaScript gives us an
+        illusion of being multithreaded even though it is single-threaded. It
+        takes the first event from the Event Queue and places it onto the stack.
+        From here, this function executes calling other functions inside it, if
+        any. This cycle is called the event loop and this how JavaScript manages
+        its events.
+      </p>
+    </section>
+    <section class="box-container blog">
+      <h3 class="question green">8 ways to get undefined</h3>
+      <ul class="answer list-container">
+        <li>Accessing a variable that has not been initialized first.</li>
+        <li>Accessing a non-existing property of an object</li>
+        <li>
+          A function that doesn't have a return statement implicitly returns
+          undefined.
+        </li>
+        <li>When you call the function and don't pass all the arguments</li>
+        <li>
+          When a function has a return statement without an expression, it also
+          returns undefined
+        </li>
+        <li>Trying to access an array element outside index range</li>
+        <li>Deleting an array item using delete operator</li>
+        <li>If the value is set to "undefined"</li>
+      </ul>
+    </section>
   </body>
 </html>
