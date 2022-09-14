@@ -200,7 +200,9 @@ button {
 .mt-5 {
   margin-top: 24px;
 }
-
+.question {
+  font-weight: 500;
+}
 .answer {
   margin-top: 14px;
 }
