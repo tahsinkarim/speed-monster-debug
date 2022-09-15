@@ -210,6 +210,9 @@ button {
   padding-left: 24px;
 }
 .button {
+  text-align: center;
+  width: 300px;
+  text-decoration: none;
   padding: 10px 20px;
   border: none;
   font-size: 16px;
@@ -220,6 +223,12 @@ button {
   border-radius: 10px;
   border: 2px solid #9dffad;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  color: #171717;
+  background-color: #9dffad;
+  font-size: 18px;
 }
 .home-button {
   display: flex;
@@ -229,7 +238,7 @@ button {
 
 @media only screen and (max-width: 700px) {
   .box-container {
-    padding: 0 20px;
+    padding: 20px 20px;
     width: 100%;
   }
   .card {
